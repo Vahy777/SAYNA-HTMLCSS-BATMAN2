@@ -142,6 +142,55 @@ nav ul li a:hover {
     }
   }
 
+  /*Design du level 1*/
+
+.Aside{
+    margin-top: 8%;
+}
+
+.Joker{
+    width: 15%;
+    margin-left: 150px;
+}
+
+.group{
+    width: 50%;
+    float: right;
+    margin-top: 15px;
+    margin-right: 140px;
+}
+
+.group p{
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.btn-group{
+    width: 80%;
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: grey;
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+.btn-group label{
+    padding-left: 10px;
+}
+
+input[type=checkbox] {
+    transform: scale(2);
+}
+
+
+/*Design du level 2*/
 
 
 /*Design de la Section Batman character*/
@@ -229,11 +278,11 @@ h1 {
 
 #Bat-game1{
     text-align: center;
-    margin-top: 8%;
+    margin-top: 40%;
     
 }
 
-#Bat-game1 .titre{
+#Bat-game1 .titre, .level{
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -242,8 +291,6 @@ h1 {
     font-family: 'rajdhani';
 
 }
-
-
 
 @media (min-width: 400px) {
     .Start img { 
@@ -259,10 +306,6 @@ h1 {
        
     }
   }
-  
-    
-
-  
 
 .btn{
     background: linear-gradient(100deg,  rgba(255,255,255,0.5), rgba(247, 147, 54, 0.8)); 
@@ -312,32 +355,35 @@ footer{
 }
 
 @media (min-width: 400px) {
-    .text-footer span{
+    .text-footer { 
+        font-size: 10px;
         text-align: center;
-        font-size: 8px;
-     
+        
     }
   }
-  
-  @media (min-width: 1001px){
-    .text-footer span{
+
+  @media (max-width: 1600px) {
+    .text-footer { 
+        font-size: 16px;
         text-align: center;
-        font-size: 12px;
-     
+
     }
-     }
-
-
+  }
 
 .foot-img{
     padding-top: 15px;
 }
 
-.social-media{
-    text-align: center;
-    margin: 50px 0;
+@media (min-width: 400px) {
+    .social-media{
+        text-align: center;
+        margin: 50px auto;
+    
+    }
+        
+    }
+  }
 
-}
 
 .X{
     padding: 15px;
